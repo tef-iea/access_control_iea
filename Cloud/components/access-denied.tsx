@@ -44,7 +44,7 @@ export default function AccessDenied() {
                 className="flex w-full justify-center rounded-full bg-black px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 onClick={(e) => {
                   e.preventDefault();
-                  signIn("worldcoin"); // when worldcoin is the only provider
+                  signIn(); // when worldcoin is the only provider
                 }}
               >
                 Sign in
